@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.welcome_content {
+  padding-top: 20% !important;
+}
+.welcome_content h1 {
+  font-size: 90px !important;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 3px 3px 3px black;
+}
+
+.playground {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding-top: 1em;
+}
+.difficulty img {
+  display: inline;
+  height: 34px;
+  padding-right: 4px;
+}
+.finish_message {
+  font-size: 62px;
+  font-weight: 600;
+}
+.background-image {
+  background-image: url('./images/mlp1.png');
+  background-size: cover;
+  display: block;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
