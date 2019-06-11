@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { HashRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
 import { Segment } from 'semantic-ui-react';
 import { Sticky } from 'semantic-ui-react';
