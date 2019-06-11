@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { Link } from 'react-router-dom';
+import { HashRouter as Link } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
 import { Segment } from 'semantic-ui-react';
 import { Sticky } from 'semantic-ui-react';
@@ -44,6 +44,8 @@ export class Game extends Component {
 
         this.moveButtonHandler = this.moveButtonHandler.bind(this);
         this.reloadMaze();
+
+        console.log(process.env.PUBLIC_URL);
     }
 
     async reloadMaze() {
